@@ -119,7 +119,7 @@ class News extends Component {
                 </div>
                 {this.props.selectedBlog && (
                     <NewsModal blog={this.props.selectedBlog} onClose={this.props.onClose}
-                               showModal={this.props.showModal}/>
+                               showModal={this.props.showModal} bloglar={this.fetchBlogs}/>
                 )}
             </div>
 
